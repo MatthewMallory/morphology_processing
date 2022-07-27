@@ -1,0 +1,11 @@
+{"num_node_thresh": 20,
+"cell_of_interest_threshold":30,
+"soma_connection_threshold":90,
+"x_res": 0.1144,
+"y_res": 0.1144,
+"denoise_radius":500,
+"redundancy_dist_threshold": 25,
+"redundancy_percentage_threshold": 0.75,
+"node_spacing_for_resampling": 1.144,
+"radius_adder_xy_buffer":90,
+"dendrite_min_fraction_for_relabel": 0.40}
