@@ -1,0 +1,32 @@
+# id name parent_id 
+1 ValidateCellOfInterest -1
+2 EdgeArtifact 1
+3 SomaInternodePrune 2
+4 ExtraCellRemover 3
+#
+# Feature Branch
+#
+5 SegmentRelabelling 4
+6 ConnectSegments 5
+7 RemoveRedundancy 6
+8 AddRadius 7
+9 SortTreeIDs 8
+10 Resample 9
+11 SortTreeIDs 10
+12 Prune 11
+13 SortTreeIDs 12
+14 SomaInternodePrune 13
+15 SortTreeIDs 14
+#
+# ADR Branch
+#
+16 ConnectSegments 4
+17 RemoveRedundancy 16
+18 AddRadius 17
+19 SortTreeIDs 18
+20 Resample 19
+21 SortTreeIDs 20
+22 Prune 21
+23 SortTreeIDs 22
+24 SomaInternodePrune 23
+25 SortTreeIDs 24
